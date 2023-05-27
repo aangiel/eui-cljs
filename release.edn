@@ -1,4 +1,4 @@
-{:group-id "co.elastic",
+{:group-id "io.aangiel.elastic",
  :artifact-id "eui-cljs",
- :scm-url "https://github.com/elastic/eui-cljs",
+ :scm-url "https://github.com/aangiel/eui-cljs",
  :version "81.0.0-SNAPSHOT"}
