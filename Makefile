@@ -21,7 +21,7 @@ clean:
 
 .PHONY: release
 release:
-	git checkout -b "v${VERSION}"
+	git checkout "v${VERSION}"
 	git commit -am "EUI v${VERSION} Release"
 	git push origin "v${VERSION}"
 	clj -M:release
